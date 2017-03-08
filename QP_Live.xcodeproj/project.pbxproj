@@ -7,25 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		282F14D51E6F08DE0014DA3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F14D41E6F08DE0014DA3D /* main.m */; };
-		282F14D81E6F08DE0014DA3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F14D71E6F08DE0014DA3D /* AppDelegate.m */; };
-		282F14DB1E6F08DE0014DA3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F14DA1E6F08DE0014DA3D /* ViewController.m */; };
 		282F14DE1E6F08DE0014DA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282F14DC1E6F08DE0014DA3D /* Main.storyboard */; };
 		282F14E01E6F08DE0014DA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282F14DF1E6F08DE0014DA3D /* Assets.xcassets */; };
 		282F14E31E6F08DE0014DA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282F14E11E6F08DE0014DA3D /* LaunchScreen.storyboard */; };
+		282F14FB1E6F165C0014DA3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F14F51E6F165C0014DA3D /* ViewController.m */; };
+		282F14FC1E6F165C0014DA3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F14F91E6F165C0014DA3D /* AppDelegate.m */; };
+		282F14FD1E6F165C0014DA3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F14FA1E6F165C0014DA3D /* main.m */; };
+		282F15001E6F16E00014DA3D /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F14FF1E6F16E00014DA3D /* LiveViewController.m */; };
+		282F15031E6FF1200014DA3D /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 282F15021E6FF1200014DA3D /* KxMenu.m */; };
+		B458546FDEDE2317C70BFFC2 /* libPods-QP_Live.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0BE885ED19A3BD6000BDEE /* libPods-QP_Live.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0BE885ED19A3BD6000BDEE /* libPods-QP_Live.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QP_Live.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		282F14D01E6F08DE0014DA3D /* QP_Live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QP_Live.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		282F14D41E6F08DE0014DA3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		282F14D61E6F08DE0014DA3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		282F14D71E6F08DE0014DA3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		282F14D91E6F08DE0014DA3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		282F14DA1E6F08DE0014DA3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		282F14DD1E6F08DE0014DA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		282F14DF1E6F08DE0014DA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		282F14E21E6F08DE0014DA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		282F14E41E6F08DE0014DA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282F14F41E6F165C0014DA3D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		282F14F51E6F165C0014DA3D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		282F14F81E6F165C0014DA3D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		282F14F91E6F165C0014DA3D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		282F14FA1E6F165C0014DA3D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		282F14FE1E6F16E00014DA3D /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		282F14FF1E6F16E00014DA3D /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		282F15011E6FF1200014DA3D /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		282F15021E6FF1200014DA3D /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		313EA7246697FCBED1FBE10F /* Pods-QP_Live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QP_Live.release.xcconfig"; path = "Pods/Target Support Files/Pods-QP_Live/Pods-QP_Live.release.xcconfig"; sourceTree = "<group>"; };
+		BBBE090795F1FF0AB4AE0F1B /* Pods-QP_Live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QP_Live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QP_Live/Pods-QP_Live.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B458546FDEDE2317C70BFFC2 /* libPods-QP_Live.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				282F14D21E6F08DE0014DA3D /* QP_Live */,
 				282F14D11E6F08DE0014DA3D /* Products */,
+				B11BF5AB4AA2A5422D09765D /* Pods */,
+				62D3BA63F2290205000D517A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +71,7 @@
 		282F14D21E6F08DE0014DA3D /* QP_Live */ = {
 			isa = PBXGroup;
 			children = (
-				282F14D61E6F08DE0014DA3D /* AppDelegate.h */,
-				282F14D71E6F08DE0014DA3D /* AppDelegate.m */,
-				282F14D91E6F08DE0014DA3D /* ViewController.h */,
-				282F14DA1E6F08DE0014DA3D /* ViewController.m */,
-				282F14DC1E6F08DE0014DA3D /* Main.storyboard */,
-				282F14DF1E6F08DE0014DA3D /* Assets.xcassets */,
-				282F14E11E6F08DE0014DA3D /* LaunchScreen.storyboard */,
-				282F14E41E6F08DE0014DA3D /* Info.plist */,
+				282F14EA1E6F15F60014DA3D /* Classes */,
 				282F14D31E6F08DE0014DA3D /* Supporting Files */,
 			);
 			path = QP_Live;
@@ -74,9 +80,69 @@
 		282F14D31E6F08DE0014DA3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				282F14D41E6F08DE0014DA3D /* main.m */,
+				282F14DC1E6F08DE0014DA3D /* Main.storyboard */,
+				282F14DF1E6F08DE0014DA3D /* Assets.xcassets */,
+				282F14E11E6F08DE0014DA3D /* LaunchScreen.storyboard */,
+				282F14E41E6F08DE0014DA3D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		282F14EA1E6F15F60014DA3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				282F14F31E6F165C0014DA3D /* Home */,
+				282F14F61E6F165C0014DA3D /* Live */,
+				282F14F71E6F165C0014DA3D /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		282F14F31E6F165C0014DA3D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				282F14F41E6F165C0014DA3D /* ViewController.h */,
+				282F14F51E6F165C0014DA3D /* ViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		282F14F61E6F165C0014DA3D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				282F15011E6FF1200014DA3D /* KxMenu.h */,
+				282F15021E6FF1200014DA3D /* KxMenu.m */,
+				282F14FE1E6F16E00014DA3D /* LiveViewController.h */,
+				282F14FF1E6F16E00014DA3D /* LiveViewController.m */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		282F14F71E6F165C0014DA3D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				282F14F81E6F165C0014DA3D /* AppDelegate.h */,
+				282F14F91E6F165C0014DA3D /* AppDelegate.m */,
+				282F14FA1E6F165C0014DA3D /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		62D3BA63F2290205000D517A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A0BE885ED19A3BD6000BDEE /* libPods-QP_Live.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B11BF5AB4AA2A5422D09765D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBBE090795F1FF0AB4AE0F1B /* Pods-QP_Live.debug.xcconfig */,
+				313EA7246697FCBED1FBE10F /* Pods-QP_Live.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 282F14E71E6F08DE0014DA3D /* Build configuration list for PBXNativeTarget "QP_Live" */;
 			buildPhases = (
+				3B516F9BB8DC791BCC6F12D4 /* [CP] Check Pods Manifest.lock */,
 				282F14CC1E6F08DD0014DA3D /* Sources */,
 				282F14CD1E6F08DD0014DA3D /* Frameworks */,
 				282F14CE1E6F08DD0014DA3D /* Resources */,
+				02DAD08481B4D9C9EA9BF5C9 /* [CP] Embed Pods Frameworks */,
+				408B3604595593D43D3194F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +215,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02DAD08481B4D9C9EA9BF5C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QP_Live/Pods-QP_Live-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B516F9BB8DC791BCC6F12D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		408B3604595593D43D3194F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QP_Live/Pods-QP_Live-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		282F14CC1E6F08DD0014DA3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282F14DB1E6F08DE0014DA3D /* ViewController.m in Sources */,
-				282F14D81E6F08DE0014DA3D /* AppDelegate.m in Sources */,
-				282F14D51E6F08DE0014DA3D /* main.m in Sources */,
+				282F14FC1E6F165C0014DA3D /* AppDelegate.m in Sources */,
+				282F14FD1E6F165C0014DA3D /* main.m in Sources */,
+				282F15031E6FF1200014DA3D /* KxMenu.m in Sources */,
+				282F15001E6F16E00014DA3D /* LiveViewController.m in Sources */,
+				282F14FB1E6F165C0014DA3D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +388,12 @@
 		};
 		282F14E81E6F08DE0014DA3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBE090795F1FF0AB4AE0F1B /* Pods-QP_Live.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E5A83P9AJ;
 				INFOPLIST_FILE = QP_Live/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jackiequ.github.io.QP-Live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +402,12 @@
 		};
 		282F14E91E6F08DE0014DA3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313EA7246697FCBED1FBE10F /* Pods-QP_Live.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E5A83P9AJ;
 				INFOPLIST_FILE = QP_Live/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jackiequ.github.io.QP-Live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +433,7 @@
 				282F14E91E6F08DE0014DA3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
